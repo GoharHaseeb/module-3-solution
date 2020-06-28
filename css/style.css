@@ -1,0 +1,86 @@
+body{
+	background-color: pink;
+}
+#header-nav{
+	
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+	padding: 20px;
+	margin-bottom: 0px;
+
+}
+#collapsable-nav{
+	box-sizing: content-box;
+	width: 100%;
+	margin: 0px;
+	border: 0px;
+	background-color: black;
+
+}
+#collapsable-nav #nav-list .nav-item a{
+	color: red;
+	font-family: 'Roboto Mono', monospace;
+}
+
+
+.navbar-brand h1{
+	color: black;
+	font-size: 1.5em;
+	font-family: 'Permanent Marker', cursive;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: .75;
+}
+.navbar-brand p span {
+	font-family: 'Shadows Into Light', cursive;
+	color: green;
+	vertical-align: middle;
+}
+#nav-list{
+	margin-top: 10px;
+	background-color: white;
+	width: 100%;
+}
+#nav-list a{
+	color: blue;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: pink;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px; 
+}
+div h1{
+	font-family: 'Permanent Marker', cursive;
+}
+#line{
+	width: 100%;
+	color: solid black;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.container{
+	width: 90%;
+}
+
+.container .row #menu{
+	background-color: grey;
+	margin-top: 20px;
+	font-size: 32px;
+	font-family: 'Dancing Script', cursive;
+}
+.container .row #menu h2{
+	font-size: 40px;
+	color: #800000;
+
+}
